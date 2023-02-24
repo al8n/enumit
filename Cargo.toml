@@ -1,9 +1,11 @@
 [package]
 name = "enumit"
-version = "0.0.0"
+version = "0.1.0"
 edition = "2021"
 license = "Apache-2.0/MIT"
-description = "a placeholder"
+description = "A macro to generate an enum from a struct"
+repository = "https://github.com/al8n/enumit"
+homepage = "https://github.com/al8n/enumit"
 
 [lib]
 proc-macro = true
@@ -12,3 +14,7 @@ proc-macro = true
 syn = { version = "1", features = ["full"]}
 quote = "1"
 proc-macro2 = "1"
+heck = "0.4"
+
+[dev-dependencies]
+serde = { version = "1", features = ["derive"] }
