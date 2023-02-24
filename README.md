@@ -1,2 +1,2 @@
 # enumit
-Convert struct to an enum.
+Generate enum type from struct.
